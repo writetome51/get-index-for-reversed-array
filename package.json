@@ -1,0 +1,34 @@
+{
+  "name": "@writetome51/get-index-for-reversed-array",
+  "version": "1.0.0",
+  "description": "Function receives an array index and returns the index for the same item if its array's order was reversed.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/get-index-for-reversed-array.git"
+  },
+  "keywords": [
+    "array",
+    "index",
+    "reversed",
+    "reverse",
+    "translated",
+    "converted"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/get-index-for-reversed-array/issues"
+  },
+  "homepage": "https://github.com/writetome51/get-index-for-reversed-array#readme",
+  "devDependencies": {
+    "@writetome51/arrays-match": "~1.0.5"
+  },
+  "dependencies": {
+    "error-if-not-all-values-are-numbers": "~1.0.2"
+  }
+}
