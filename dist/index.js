@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var errorIfNotInteger_1 = require("basic-data-handling/errorIfNotInteger");
 var errorIfNotIntegerZeroOrGreater_1 = require("basic-data-handling/errorIfNotIntegerZeroOrGreater");
-// Returns `index` changed to different number, which would be the index for the same
-// item if its array's order was reversed.  Example:  index of 1, for array 6 items long,
+// Receives array `index` and returns the new index that same item would have
+// if the array's order were reversed.  Example:  index of 1, for array 6 items long,
 // would become index of 4.
 function getIndexForReversedArray(index, arrayLength) {
     __validateArguments();

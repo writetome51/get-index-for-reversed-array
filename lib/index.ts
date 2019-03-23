@@ -1,9 +1,8 @@
-import { errorIfNotAllValuesAreNumbers } from 'error-if-not-all-values-are-numbers';
 import { errorIfNotInteger } from 'basic-data-handling/errorIfNotInteger';
 import { errorIfNotIntegerZeroOrGreater } from 'basic-data-handling/errorIfNotIntegerZeroOrGreater';
 
-// Returns `index` changed to different number, which would be the index for the same
-// item if its array's order was reversed.  Example:  index of 1, for array 6 items long,
+// Receives array `index` and returns the new index that same item would have
+// if the array's order were reversed.  Example:  index of 1, for array 6 items long,
 // would become index of 4.
 
 export function getIndexForReversedArray(index, arrayLength): number {
