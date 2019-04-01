@@ -1,4 +1,4 @@
-import { errorIfNotInteger } from 'basic-data-handling/errorIfNotInteger';
+import { errorIfIndexNotValid } from 'error-if-index-not-valid';
 import { errorIfNotIntegerZeroOrGreater } from 'basic-data-handling/errorIfNotIntegerZeroOrGreater';
 
 // Receives array `index` and returns the new index that same item would have
@@ -6,16 +6,9 @@ import { errorIfNotIntegerZeroOrGreater } from 'basic-data-handling/errorIfNotIn
 // would become index of 4.
 
 export function getIndexForReversedArray(index, arrayLength): number {
-	__validateArguments();
+	
+	errorIfNotIntegerZeroOrGreater(index);
+	errorIfIndexNotValid(index, arrayLength);
 
-	if (index >= arrayLength) throw new Error('The index is not valid.  It exceeds the' +
-		' index range of the array.');
 	return (arrayLength - 1 - index);
-
-
-	function __validateArguments() {
-		errorIfNotIntegerZeroOrGreater(index);
-		errorIfNotInteger(arrayLength);
-		if (arrayLength < 1) throw new Error('The array length must be greater than 0');
-	}
 }

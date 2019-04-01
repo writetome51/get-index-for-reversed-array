@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-index-for-reversed-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function receives array index and returns the new index that same item would have if the array's order were reversed",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,9 +25,9 @@
     "url": "https://github.com/writetome51/get-index-for-reversed-array/issues"
   },
   "homepage": "https://github.com/writetome51/get-index-for-reversed-array#readme",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
-    "basic-data-handling": "~1.0.15"
+    "basic-data-handling": "~1.0.15",
+    "error-if-index-not-valid": "~1.0.0"
   }
 }
