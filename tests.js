@@ -1,4 +1,4 @@
-import { getIndexForReversedArray } from './index';
+import { getIndexForReversedArray } from 'index';
 // Test 1
 let arr = [7, 2, 6, 9, 3, 10];
 let index = arr.indexOf(2);

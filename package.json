@@ -3,11 +3,7 @@
   "version": "2.0.0",
   "description": "Function receives array index and returns the new index that same item would have if the array's order were reversed",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/writetome51/get-index-for-reversed-array.git"
