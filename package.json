@@ -1,12 +1,12 @@
 {
-  "name": "@writetome51/get-index-for-reversed-array",
-  "version": "2.0.0",
-  "description": "Function receives array index and returns the new index that same item would have if the array's order were reversed",
+  "name": "@writetome51/get-reverse-index",
+  "version": "1.0.0",
+  "description": "Function receives array index and returns the index it would be if the array's order were reversed",
   "type": "module",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/writetome51/get-index-for-reversed-array.git"
+    "url": "git+https://github.com/writetome51/get-reverse-index.git"
   },
   "keywords": [
     "array",
@@ -19,9 +19,9 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/writetome51/get-index-for-reversed-array/issues"
+    "url": "https://github.com/writetome51/get-reverse-index/issues"
   },
-  "homepage": "https://github.com/writetome51/get-index-for-reversed-array#readme",
+  "homepage": "https://github.com/writetome51/get-reverse-index#readme",
   "devDependencies": {},
   "dependencies": {
     "error-if-not-integer-zero-or-greater": "^2.0.0",

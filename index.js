@@ -6,7 +6,7 @@ import {errorIfNotIntegerZeroOrGreater} from 'error-if-not-integer-zero-or-great
 // if the array's order were reversed.  Example:  index of 1, for array 6 items long,
 // would become index of 4.
 
-export function getIndexForReversedArray(index, arrayLength) {
+export function getReverseIndex(index, arrayLength) {
 	errorIfNotIntegerZeroOrGreater(index);
 	errorIfIndexNotValid(index, arrayLength);
 	return (arrayLength - 1 - index);

@@ -1,4 +1,4 @@
-# getIndexForReversedArray(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arrayLength<br>): number
+# getReverseIndex(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arrayLength<br>): number
 
 Receives array `index` and returns the new index that same item would have  
 if the array's order were reversed.  
@@ -8,21 +8,19 @@ if the array's order were reversed.
 ```js
 let arr = ['a', 'b', 'c', 'd', 'e'];   
 let index = arr.indexOf('d');
-arr.reverse();
-getIndexForReversedArray(index, arr.length);
+getReverseIndex(index, arr.length);
    // -->  1
 
 arr = [7, 2, 6, 9, 3, 10];
-let index = arr.indexOf(2);
-arr.reverse();
-getIndexForReversedArray(index, arr.length);
-   // -->  2
+index = arr.indexOf(2);
+getReverseIndex(index, arr.length);
+   // -->  4
 ```
 
 ## Installation
-`npm i @writetome51/get-index-for-reversed-array`
+`npm i @writetome51/get-reverse-index`
 
 ## Loading
 ``` js
-import {getIndexForReversedArray} from '@writetome51/get-index-for-reversed-array';
+import {getReverseIndex} from '@writetome51/get-reverse-index';
 ```
